@@ -27,11 +27,12 @@ This project is a solution to the **News Homepage** challenge from Frontend Ment
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/manpreet00008/manpreet00008.git
+   git clone https://github.com/manpreet00008/mtm6407-frontend-mentor-manpreet00008.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd mtm6404-frontend-mentor-KAUR-SURJIT
+   cd mtm6407-frontend-mentor-manpreet00008
+
    ```
 3. Open `index.html` in a browser to view the project.
 
