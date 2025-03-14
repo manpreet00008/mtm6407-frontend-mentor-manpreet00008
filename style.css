@@ -1,0 +1,279 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.site-logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+.nav-list li a:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p {
+    color: #949296;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    padding: 50px;
+}
+
+.hero-section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-left-section {
+    flex: 1;
+}
+
+.hero-left-section h2 {
+    color: black;
+    font-size: 4rem;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+.hero-right-section {
+    flex: 1;
+    padding: 0 40px;
+}
+
+.hero-right-section p {
+    line-height: 36px;
+    margin-bottom: 41px;
+    color: #949296;
+}
+
+.button-primary {
+    background-color: #f65b52;
+    color: #040404;
+    padding: 16px 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sidebar-section {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar-section h3 {
+    color: orange;
+    font-size: 2.5rem;
+}
+
+.sidebar-section article {
+    margin-bottom: 40px;
+}
+
+.sidebar-section h4 {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.sidebar-section p {
+    color: #bbb;
+    font-size: 1rem;
+}
+
+.article-highlight span {
+    color: #f65b52;
+    display: block;
+    font-size: 26pt;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.article-container article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 31.2%;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+.closebutton {
+display: none;
+}
+.article-container article img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.article-content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.close-menu {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+
+    .site-logo {
+        font-size: 36px;
+    }
+
+    .close-menu {
+        display: block;
+        text-align: right;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-right-section {
+        padding: 0;
+    }
+
+    .hero-left-section h2 {
+        margin: 0;
+    }
+
+    .hero-section img {
+        min-height: 225px;
+        width: 100vw;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 60%;
+        height: 100vh;
+        background: #fff;
+        transition: 0.3s;
+        padding: 20px;
+    }
+
+    .article-container h4 {
+        margin-top: 10px;
+    }
+
+    .main-container {
+        display: flex;
+        padding: 0;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+    .menu-toggle
+    {
+        display: block;
+    }
+    article.article-highlight
+    {
+        max-width: 94%;
+    }
+    .article-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-list {
+        display: flex
+    ;
+        list-style: none;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .closebutton {
+        color: Red;
+        display: inline;
+        margin-left: 60px;
+        margin-top: 5px;
+        font-size: 20px;
+        
+    }
+    header
+    {
+        padding-left:14px;
+        padding-right:14px;
+    }
+}
