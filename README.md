@@ -39,11 +39,13 @@ This project is a solution to the **News Homepage** challenge from Frontend Ment
 ```
 mtm6404-frontend-mentor-KAUR-SURJIT/
 │── assets/
-│   ├── images/ (Contains project images)
+│   │──fonts/(Contains project fonts)
+├── images/ (Contains project images)
 │── index.html
 │── style.css
 │── script.js
 │── README.md
+│──SCREENSHOT (Contains project Screenshot)
 ```
 ## Screenshots Frontend Challange
 ### Desktop View
