@@ -1,11 +1,11 @@
-# MTM6404 Frontend Mentor Challenge - manpreet00008
+# MTM6407 Frontend Mentor Challenge - manpreet00008
 
 ## Project: News Homepage
 
 ### Student Information
 - **Name:** manpreet gill
 - **Student Number:** 
-- **GitHub Repository:** [manpreet00008/manpreet00008](https://github.com/manpreet00008/manpreet00008.git)
+- **GitHub Repository:** [mtm6407-frontend-mentor-manpreet00008](https://github.com/manpreet00008/manpreet00008.git)
 
 ## Challenge Overview
 This project is a solution to the **News Homepage** challenge from Frontend Mentor. The goal was to create a fully responsive news homepage using HTML, CSS, and JavaScript while closely matching the provided design mockups.
@@ -27,7 +27,7 @@ This project is a solution to the **News Homepage** challenge from Frontend Ment
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/81960/mtm6404-frontend-mentor-KAUR-SURJIT.git
+   git clone https://github.com/manpreet00008/manpreet00008.git
    ```
 2. Navigate to the project folder:
    ```bash
@@ -47,17 +47,17 @@ mtm6404-frontend-mentor-KAUR-SURJIT/
 ```
 ## Screenshots Frontend Challange
 ### Desktop View
-![Desktop Layout](design/desktop-design.jpg)
+![Desktop Design](SCREENSHOT/d.png)
 
 ### Mobile View
-![Mobile Layout](design/mobile-design.jpg)
+![Mobile Design](SCREENSHOT/m.png)
 
 ## Screenshots 
 ### Desktop View
-<img src="SS/desktop.jpeg" alt="Desktop Layout" width="800">
+<img src="challenge/design/desktop-design.jpg" alt="Desktop Layout" width="800">
 
 ### Mobile View
-<img src="SS/mobile.jpeg" alt="Mobile Layout" width="400">
+<img src="challenge/design/mobile-design.jpg" alt="Mobile Layout" width="400">
 
 
 
