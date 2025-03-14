@@ -57,17 +57,17 @@ mtm6404-frontend-mentor-KAUR-SURJIT/
 
 ## Screenshots 
 ### Desktop View
-<img src="challenge/design/desktop-design.jpg" alt="Desktop Layout" width="800">
+<img src="challenge/design/desktop-design.jpg" alt="Desktop Design" width="740">
 
 ### Mobile View
-<img src="challenge/design/mobile-design.jpg" alt="Mobile Layout" width="400">
+<img src="challenge/design/mobile-design.jpg" alt="Mobile Design" width="360">
 
 
 
 
 
 ## Acknowledgments
-- [Frontend Mentor](https://www.frontendmentor.io/) for the challenge.
+- [Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl) for the challenge.
 - **Professor Guer0157** for guidance.
 
 ## License
