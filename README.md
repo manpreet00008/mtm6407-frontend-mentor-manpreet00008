@@ -4,7 +4,7 @@
 
 ### Student Information
 - **Name:** manpreet gill
-- **Student Number:** 
+- **Student Number:** 041129349
 - **GitHub Repository:** [mtm6407-frontend-mentor-manpreet00008](https://github.com/manpreet00008/manpreet00008.git)
 
 ## Challenge Overview
